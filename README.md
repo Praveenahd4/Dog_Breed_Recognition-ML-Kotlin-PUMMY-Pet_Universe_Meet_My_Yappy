@@ -30,6 +30,7 @@ PUMMY is a creative smartphone application designed to meet the increasing deman
 ## Usage
 1. Review and run the Jupyter Notebooks to understand the underlying machine learning processes.
 2. Launch the PUMMY app on your smartphone to experience accurate breed identification and detailed breed information.
-   ![Wellcome Screen](https://github.com/Praveenahd4/PUMMY-Pet-Universe-Meet-My-Yappy/assets/118451730/2e7584c6-c23e-44e5-8b3b-8cfd70a24ee6)
-   ![Selection](https://github.com/Praveenahd4/PUMMY-Pet-Universe-Meet-My-Yappy/assets/118451730/80564568-d1e0-4775-a1fa-308fb9a03055)
-![Pummy](https://github.com/Praveenahd4/PUMMY-Pet-Universe-Meet-My-Yappy/assets/118451730/ddc3990b-5ba9-4f5f-bc53-0526933a5358)
+
+<img src="https://github.com/Praveenahd4/PUMMY-Pet-Universe-Meet-My-Yappy/assets/118451730/2e7584c6-c23e-44e5-8b3b-8cfd70a24ee6" width="300">
+<img src="https://github.com/Praveenahd4/PUMMY-Pet-Universe-Meet-My-Yappy/assets/118451730/80564568-d1e0-4775-a1fa-308fb9a03055" width="300">
+<img src="https://github.com/Praveenahd4/PUMMY-Pet-Universe-Meet-My-Yappy/assets/118451730/ddc3990b-5ba9-4f5f-bc53-0526933a5358">
