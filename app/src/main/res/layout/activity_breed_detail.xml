@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BreedDetailActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_breedDetail"
+            android:layout_width="match_parent"
+            android:layout_height="?android:attr/actionBarSize"
+            android:background="@drawable/background"
+            android:theme="@style/ToolbarTheme"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:titleTextColor="@color/white" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Breed Image -->
+            <ImageView
+                android:id="@+id/breed_image"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/add_screen_image_placeholder" />
+
+            <!-- Breed Name -->
+            <TextView
+                android:id="@+id/breed_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Breed Name"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <!-- Lifespan -->
+            <TextView
+                android:id="@+id/breed_lifespan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Lifespan: "
+                android:textSize="16sp" />
+
+            <!-- Description -->
+            <TextView
+                android:id="@+id/description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Description: "
+                android:textSize="16sp" />
+
+            <!-- Temperament -->
+            <TextView
+                android:id="@+id/temperament"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Temperament: "
+                android:textSize="16sp" />
+
+            <!-- Health Considerations -->
+            <TextView
+                android:id="@+id/health_considerations"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Health Considerations: "
+                android:textSize="16sp" />
+
+            <!-- Size and Weight -->
+            <TextView
+                android:id="@+id/size_and_weight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Size and Weight: "
+                android:textSize="16sp" />
+
+            <!-- History and Origin -->
+            <TextView
+                android:id="@+id/history_and_origin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="History and Origin: "
+                android:textSize="16sp" />
+
+            <!-- Special Requirements -->
+            <TextView
+                android:id="@+id/special_requirements"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Special Requirements: "
+                android:textSize="16sp" />
+
+            <!-- Popularity -->
+            <TextView
+                android:id="@+id/popularity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Popularity: "
+                android:textSize="16sp" />
+
+            <!-- Notable Characteristics -->
+            <TextView
+                android:id="@+id/notable_characteristics"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Notable Characteristics: "
+                android:textSize="16sp" />
+
+            <!-- Exercise Needs -->
+            <TextView
+                android:id="@+id/exercise_needs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Exercise Needs: "
+                android:textSize="16sp" />
+
+            <!-- Grooming Needs -->
+            <TextView
+                android:id="@+id/grooming_needs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Grooming Needs: "
+                android:textSize="16sp" />
+
+            <!-- Activity Level -->
+            <TextView
+                android:id="@+id/activity_level"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Activity Level: "
+                android:textSize="16sp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

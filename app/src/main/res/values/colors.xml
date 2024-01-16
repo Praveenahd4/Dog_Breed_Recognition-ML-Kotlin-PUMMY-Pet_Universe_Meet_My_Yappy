@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="brown">#370617</color>
+    <color name="maroon">#6a040f</color>
+    <color name="darkRed">#9d0208</color>
+    <color name="red">#d00000</color>
+    <color name="darkOrange">#dc2f02</color>
+    <color name="Orange">#e85d04</color>
+    <color name="yellow">#ffba08</color>
+    <color name="green">#2BCA32</color>
+    <color name="gray">#650A0A0A</color>
+</resources>

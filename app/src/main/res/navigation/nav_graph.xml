@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashScreenFragment">
+
+    <fragment
+        android:id="@+id/splashScreenFragment"
+        android:name="com.pummy.SplashScreenFragment"
+        android:label="fragment_splash_screen"
+        tools:layout="@layout/fragment_splash_screen" >
+        <action
+            android:id="@+id/action_splashScreenFragment_to_introFragment"
+            app:destination="@id/introFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/introFragment"
+        android:name="com.pummy.IntroFragment"
+        android:label="fragment_intro"
+        tools:layout="@layout/fragment_intro" >
+        <action
+            android:id="@+id/action_introFragment_to_selectionFragment"
+            app:destination="@id/selectionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/selectionFragment"
+        android:name="com.pummy.SelectionFragment"
+        android:label="fragment_selection"
+        tools:layout="@layout/fragment_selection" >
+        <action
+            android:id="@+id/action_selectionFragment_to_breedIdentificationFragment"
+            app:destination="@id/breedIdentificationFragment" />
+        <action
+            android:id="@+id/action_selectionFragment_to_dogBreedsFragment"
+            app:destination="@id/dogBreedsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/breedIdentificationFragment"
+        android:name="com.pummy.BreedIdentificationFragment"
+        android:label="fragment_breed_identification"
+        tools:layout="@layout/fragment_breed_identification" >
+        <action
+            android:id="@+id/action_breedIdentificationFragment_to_selectionFragment"
+            app:destination="@id/selectionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/dogBreedsFragment"
+        android:name="com.pummy.dogBreedList.view.DogBreedsFragment"
+        android:label="DogBreedsFragment" >
+        <action
+            android:id="@+id/actionDetailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.pummy.dogBreedList.view.DetailFragment"
+        android:label="DetailFragment" >
+        <action
+            android:id="@+id/actionListFragment"
+            app:destination="@id/dogBreedsFragment" />
+        <argument
+            android:name="dogUuid"
+            android:defaultValue="0"
+            app:argType="integer"/>
+    </fragment>
+</navigation>

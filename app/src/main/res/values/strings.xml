@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PUMMY</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome">Welcome to Pummy\n Your Pet Universe!</string>
+    <string name="discription">Explore diverse dog breeds and get\n personalized insights for your furry friend\n with Meet My Yappy. Discover dog-friendly\nplaces and stay informed about your\n Yappy\'s well-being, all in one app!</string>
+
+    <string name="top_prediction">Labrador Retriever(99%)</string>
+    <string name="other_prediction">other confused breed prediction</string>
+</resources>
